@@ -2,7 +2,7 @@
 
 ## 📚 Descrição
 
-Este projeto é um site interativo desenvolvido como parte dos estudos em JavaScript. O objetivo é aplicar e demonstrar habilidades em manipulação do DOM, consumo de APIs, modularização de scripts e utilização de pacotes NPM.
+Este projeto é um site interativo desenvolvido como parte dos estudos em JavaScript. O objetivo é aplicar e demonstrar habilidades em manipulação do DOM, consumo de APIs, modularização de scripts e utilização de pacotes NPM. Durante o desenvolvimento, foram utilizados **ESLint** e **Webpack** para melhorar a qualidade do código e a eficiência do projeto.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -12,6 +12,20 @@ Este projeto é um site interativo desenvolvido como parte dos estudos em JavaSc
 - Webpack
 - ESLint
 - Babel
+
+## 🎓 Aprendizado com ESLint e Webpack
+
+### 🛠️ ESLint
+O **ESLint** foi utilizado para garantir um código padronizado e livre de erros comuns. Alguns pontos principais:
+- Configuração personalizada para seguir boas práticas.
+- Identifica e corrige erros automaticamente.
+- Auxilia na manutenção de um código limpo e organizado.
+
+### 🛠️ Webpack
+O **Webpack** foi essencial para otimizar o carregamento do projeto, proporcionando:
+- Modularização do código com `import` e `export`.
+- Minificação de arquivos para melhorar performance.
+- Configuração de `loaders` para manipulação de CSS, imagens e outros ativos.
 
 ## 💁️ Estrutura do Projeto
 
@@ -28,7 +42,7 @@ animais-fantasticos/
 ├── main.js
 ├── package-lock.json
 ├── package.json
-└── webpack.config.js
+├── webpack.config.js
 ```
 
 ## 🚀 Instalação e Execução
